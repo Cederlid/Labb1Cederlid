@@ -1,0 +1,32 @@
+.here {
+    color: rgb(217, 0, 255);
+}
+/* 
+a:active {
+    color: green;
+} */
+   
+/* body {
+    background-color: red;
+} */
+
+
+nav a {
+    display: inline-block;
+    transition: all 3.5s ease;
+}
+
+nav a:hover {
+    background: red;
+    transform: scale(3.5) rotate(1535deg);
+    color: aquamarine;
+}
+
+img {
+    transition: all 3.5s ease;
+}
+
+img:hover {
+    background: red;
+    transform: scale(0.5) rotate(1535deg);
+}
