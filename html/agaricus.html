@@ -4,30 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/html/css/style.css">
     <title>Agaricus - Champinjoner</title>
 </head>
 
 <body>
     <header>
-        <h1>Champinjoner – släktet Agaricus</h1>
+        <h1 id="header">Champinjoner – släktet Agaricus</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="/html/index.html">Hem</a></li>
-            <li><a href="/html/agaricus.html">Agaricus - Champinjoner</a></li>
-            <li><a href="/html/hygrocybe.html">Hygrocybe - Vaxskivlingar</a></li>
-            <li><a href="/html/amanita.html">Amanita - Flugsvampar</a></li>
+    <nav class="menu">
+        <ul class="nav-container">
+            <li><a class="link" href="/html/index.html">Hem</a></li>
+            <li class="link-active"><a class="link" href="/html/agaricus.html">Agaricus - Champinjoner</a>
+            <li>
+            <li><a class="link" href="/html/hygrocybe.html">Hygrocybe - Vaxskivlingar</a></li>
+            <li><a class="link" href="/html/amanita.html">Amanita - Flugsvampar</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
+    <main class="main-container">
+        <section class="section-one">
             <h2>Allmänt om champinjoner!</h2>
-            <p>Champinjoner är saprotrofa, dvs de tar sin näring från dött organiskt material, såsom dött gräs, halm,
-                gödsel och barr. De behöver inte samarbeta med levande träd eller växter för att växa och producera
-                fruktkroppar. Det finns ca 40 arter i Norden och en del är svagt giftiga eller innehåller kadmium,
-                vilket gör dem mindre lämpliga att äta.</p>
+            <p>Champinjoner är saprotrofa, dvs de tar sin näring från dött organiskt material, såsom dött gräs, halm, gödsel och barr. De behöver inte samarbeta med levande träd eller växter för att växa och producera fruktkroppar. Det finns ca 40 arter i Norden och en del är svagt giftiga eller innehåller kadmium, vilket gör dem mindre lämpliga att äta.</p>
         </section>
-        <section>
+        <section class="section-two">
             <h2>Hur känner du igen en champinjon?</h2>
             <ul>
                 <li>Hatten är vit till gulvit, en del arter har bruna eller grå hattfjäll</li>
@@ -36,49 +35,20 @@
                 <li>Foten har alltid ring men aldrig volva, slida eller strumpa</li>
                 <li>Svampköttet är vitt och ofta rodnar eller gulnar det vid beröring eller i kontakt med luften</li>
             </ul>
-            <p>När du väl har konstaterat att det är en champinjon du har hittat, lägg då märke till om svampen rodnar
-                eller gulnar vid beröring och brytning. Det kan vara svaga skiftningar, men nästan alla champinjoner får
-                dessa färgförändringar. Det är en viktig karaktär.
-
-                En lista över alla champinjoner i SvampGuidens databas finner du här. Men det är bara ett urval av alla
-                de arter vi har i Norden.</p>
+            <p>När du väl har konstaterat att det är en champinjon du har hittat, lägg då märke till om svampen rodnar eller gulnar vid beröring och brytning. Det kan vara svaga skiftningar, men nästan alla champinjoner får dessa färgförändringar. Det är en viktig karaktär. En lista över alla champinjoner i SvampGuidens databas finner du här. Men det är bara ett urval av alla de arter vi har i Norden.</p>
         </section>
-        <article>
-            <h2>Hur giftiga är champinjoner?</h2>
-            <p>De kända giftiga champinjonerna i Sverige hör till den grupp som gulnar i köttet. Dessa svampar kan
-                orsaka illamående, kräkningar, magont och diarré, besvären upphör oftast efter några timmar. Se mer om
-                gift, verkan och behandling på sidan giftsvampar.
-                De arter som gulnar i köttet – bl.a. snöbollschampinjon och kungschampinjon – kan innehålla höga halter
-                av tungmetallen kadmium. Man har funnit detta även i champinjoner insamlade på 1800-talet, och man vet
-                således att champinjoner anrikade kadmium långt innan ämnet blev känt som miljöförorening. Dessa
-                champinjoner har ett kadmiumbindande protein, och det verkar som om svampens tillväxt stimuleras av
-                kadmium.
-                Kadmium tas upp av blodet och anrikas i njurarna och kan ge skador på sikt. Enligt Nordiska
-                ministerrådets sammanställning varierar innehållet mellan 0,5 och 11 mg kadmium per kilo färsk svamp,
-                med ett medelvärde på 4 mg/kg för kungschampinjon. Rekommendationen är att inte äta dessa arter i “stora
-                mängder”, och inte mer än några få ggr per år. Eftersom kadmium accumuleras i kroppen, framförallt i
-                njurarna, spelar det förstås också en roll hur mycket man har fått i sig tidigare i livet innan man
-                kommer upp i skadliga nivåer.
-                Vetemjöl och potatis är annars de största källorna till vårt dagliga kadmiumintag eftersom vi äter så
-                mycket av dessa. Med lite enkel matematik betyder det att ett hekto färsk kungschampinjon (0,4 mg
-                kadmium = 400 µm) motsvarar ungefär den mängd kadmium vi i genomsnitt får i oss via vanliga kosten under
-                en hel månad (ca 15 µm per dag = 450 µm).
-                Både odlade och vilda champinjoner innehåller fenylhydraziner som misstänks vara cancerogena.
-                Livsmedelsverket avråder därför från att äta mer än 2 hektogram per månad, dvs max 2,5 kg/år, vilket
-                anses vara en normal konsumtion av champinjoner som innebär en mycket liten hälsorisk.
-                Halten fenylhydraziner minskas genom tillagning under upphettning, t.ex. att koka, steka eller grilla
-                svampen, och ev. kokvatten bör kastas bort. Konserverade champinjoner innehåller låga halter jämfört med
-                färska.
-                Fenylhydraziner är även påvisat i puckelfjällskivling (Macrolepiota mastoidea), amerikansk spånskivling
-                (Leucoagaricus americanus), vit veckskivling (Leucocoprinus cretaceus) och champinjonfjällskivling
-                (Leucoagaricus leucothites).</p>
+        <article class="article-container">
+            <div>
+                <h2>Hur giftiga är champinjoner?</h2>
+                <p>De kända giftiga champinjonerna i Sverige hör till den grupp som gulnar i köttet. Dessa svampar kan orsaka illamående, kräkningar, magont och diarré, besvären upphör oftast efter några timmar. Se mer om gift, verkan och behandling på sidan giftsvampar. De arter som gulnar i köttet - bl.a. snöbollschampinjon och kungschampinjon - kan innehålla höga halter av tungmetallen kadmium. Man har funnit detta även i champinjoner insamlade på 1800-talet, och man vet således att champinjoner anrikade kadmium långt innan ämnet blev känt som miljöförorening. Dessa champinjoner har ett kadmiumbindande protein, och det verkar som om svampens tillväxt stimuleras av kadmium. Kadmium tas upp av blodet och anrikas i njurarna och kan ge skador på sikt. Enligt Nordiska ministerrådets sammanställning varierar innehållet mellan 0,5 och 11 mg kadmium per kilo färsk svamp, med ett medelvärde på 4 mg/kg för kungschampinjon. Rekommendationen är att inte äta dessa arter i “stora mängder”, och inte mer än några få ggr per år. Eftersom kadmium accumuleras i kroppen, framförallt i njurarna, spelar det förstås också en roll hur mycket man har fått i sig tidigare i livet innan man kommer upp i skadliga nivåer. Vetemjöl och potatis är annars de största källorna till vårt dagliga kadmiumintag eftersom vi äter så mycket av dessa. Med lite enkel matematik betyder det att ett hekto färsk kungschampinjon (0,4 mg kadmium = 400 µm) motsvarar ungefär den mängd kadmium vi i genomsnitt får i oss via vanliga kosten under en hel månad (ca 15 µm per dag = 450 µm). Både odlade och vilda champinjoner innehåller fenylhydraziner som misstänks vara cancerogena. Livsmedelsverket avråder därför från att äta mer än 2 hektogram per månad, dvs max 2,5 kg/år, vilket anses vara en normal konsumtion av champinjoner som innebär en mycket liten hälsorisk. Halten fenylhydraziner minskas genom tillagning under upphettning, t.ex. att koka, steka eller grilla svampen, och ev. kokvatten bör kastas bort. Konserverade champinjoner innehåller låga halter jämfört med färska Fenylhydraziner är även påvisat i puckelfjällskivling (Macrolepiota mastoidea), amerikansk spånskivling (Leucoagaricus americanus), vit veckskivling (Leucocoprinus cretaceus) och champinjonfjällskivling (Leucoagaricus leucothites).</p>
+                <aside>
+                    <figure>
+                        <img src="/images/agaricus.jpeg" alt="Agaricus porphyrizon">
+                        <figcaption>Bild på Rosenchampinjon - Agaricus porphyrizon</figcaption>
+                    </figure>
+                </aside>
         </article>
-        <aside>
-            <figure>
-                <img src="/images/agaricus.jpeg" alt="Agaricus porphyrizon">
-                <figcaption>Bild på Rosenchampinjon - Agaricus porphyrizon</figcaption>
-            </figure>
-        </aside>
+        </div>
     </main>
     <footer>&copy; 2023 Wijdan Cederlid</footer>
 </body>

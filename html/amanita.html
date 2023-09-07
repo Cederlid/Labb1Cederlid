@@ -4,59 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/html/css/style.css">
     <title>Amanita - Flugsvampar</title>
 </head>
 
 <body>
     <header>
-        <h1>Flugsvampar - Amanita</h1>
+        <h1 id="header">Flugsvampar - Amanita</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="/html/index.html">Hem</a></li>
-            <li><a href="/html/agaricus.html">Agaricus - Champinjoner</a></li>
-            <li><a href="/html/hygrocybe.html">Hygrocybe - Vaxskivlingar</a></li>
-            <li><a href="/html/amanita.html">Amanita - Flugsvampar</a></li>
+    <nav class="menu">
+        <ul class="nav-container">
+            <li><a class="link" href="/html/index.html">Hem</a></li>
+            <li><a class="link" href="/html/agaricus.html">Agaricus - Champinjoner</a></li>
+            <li><a class="link" href="/html/hygrocybe.html">Hygrocybe - Vaxskivlingar</a></li>
+            <li class="link-active"><a class="link" href="/html/amanita.html">Amanita - Flugsvampar</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
+    <main class="main-container">
+        <section class="section-one">
             <h2>Allmänt om flugsvampar!</h2>
-            <p>Flugsvampar (Amanita) är ett släkte av svampar med över 700 beskrivna arter och förmodligen flera hundra
-                till som är obeskrivna. I släktet ingår många giftiga arter, däribland de dödliga vit flugsvamp och
-                lömsk flugsvamp. Släktet innehåller dock några ätliga arter och många oätliga om inte direkt giftiga.
-                Typart för släktet är röd flugsvamp (A. muscaria).</p>
+            <p>Flugsvampar (Amanita) är ett släkte av svampar med över 700 beskrivna arter och förmodligen flera hundra till som är obeskrivna. I släktet ingår många giftiga arter, däribland de dödliga vit flugsvamp och lömsk flugsvamp. Släktet innehåller dock några ätliga arter och många oätliga om inte direkt giftiga. Typart för släktet är röd flugsvamp (A. muscaria).</p>
         </section>
-        <section>
+        <section class="section-two">
             <h2>Beskrivning</h2>
-            <p>Flugsvamparna har i början av sin utveckling ett yttre hylle, som omger svampen som en säck.[5] När
-                hyllet brustit bildar den nedre delen en hos många arter bildar en så kallad strumpa på foten (se bild
-                på lömsk flugsvamp) och/eller så kallade hylleplättar på hatten (jämför bilden på röd flugsvamp).[5] De
-                gifter som arterna i släktet producerar är framförallt amatoxiner, främst amanitin. Flera arter
-                tillverkar även ibotensyra och muskimol. Giftet muskarin har fått sitt namn efter den röda flugsvampen,
-                men finns bara i mindre mängder i denna. Fallotoxin finns främst i lömsk flugsvamp, men även i mycket
-                små mängder i rodnande flugsvamp.
+            <p>Flugsvamparna har i början av sin utveckling ett yttre hylle, som omger svampen som en säck. När hyllet brustit bildar den nedre delen en hos många arter bildar en så kallad strumpa på foten och/eller så kallade hylleplättar på hatten (jämför bilden på röd flugsvamp). De gifter som arterna i släktet producerar är framförallt amatoxiner, främst amanitin. Flera arter tillverkar även ibotensyra och muskimol. Giftet muskarin har fått sitt namn efter den röda flugsvampen, men finns bara i mindre mängder i denna. Fallotoxin finns främst i lömsk flugsvamp, men även i mycket små mängder i rodnande flugsvamp.
             </p>
         </section>
-        <article>
-            <h2>Vit flugsvamp och champinjoner</h2>
-            <p>Vit flugsvamp misstas ibland för champinjon och det kan få allvarliga följder om man äter svampen. Den
-                vita flugsvampen innehåller giftet amatoxin. Här berättar vi om skillnaderna mellan vit flugsvamp och
-                snöbollschampinjon.</p>
-            <p>Vit flugsvamp innehåller giftet amatoxin som skadar eller dödar celler i lever, njurar, hjärta och
-                mag-/tarmkanalens slemhinnor. 4-48 timmar efter intag drabbas man av kraftiga buksmärtor, kräkningar,
-                diarré, törst och minskad urin. Därefter uppstår svåra, ibland dödliga skador i cellerna. Levern kan
-                slås ut helt och en ny lever kan behöva transplanteras.</p>
-            <p>Det finns en enkel regel om vita svampar som nybörjare bör följa: Ät aldrig vita svampar med vita skivor.
-                Den vita flugsvampen har detta, men champinjoner har ALDRIG helvita skivor. En annan skillnad är att
-                champinjoner står ALDRIG i en strumpa, slida eller volva.</p>
+        <article class="article-container">
+            <div>
+                <h2>Vit flugsvamp och champinjoner</h2>
+                <p>Vit flugsvamp misstas ibland för champinjon och det kan få allvarliga följder om man äter svampen. Den vita flugsvampen innehåller giftet amatoxin. Här berättar vi om skillnaderna mellan vit flugsvamp och snöbollschampinjon.</p>
+                <p>Vit flugsvamp innehåller giftet amatoxin som skadar eller dödar celler i lever, njurar, hjärta och mag-/tarmkanalens slemhinnor. 4-48 timmar efter intag drabbas man av kraftiga buksmärtor, kräkningar, diarré, törst och minskad urin. Därefter uppstår svåra, ibland dödliga skador i cellerna. Levern kan slås ut helt och en ny lever kan behöva transplanteras.</p>
+                <p>Det finns en enkel regel om vita svampar som nybörjare bör följa: Ät aldrig vita svampar med vita skivor. Den vita flugsvampen har detta, men champinjoner har ALDRIG helvita skivor. En annan skillnad är att champinjoner står ALDRIG i en strumpa, slida eller volva.</p>
+                <aside>
+                    <figure>
+                        <img src="/images/amanita.jpeg" alt="Amanita muscaria">
+                        <figcaption>Bild på Röd flugsvamp - Amanita muscaria</figcaption>
+                    </figure>
+                </aside>
         </article>
-        <aside>
-            <figure>
-                <img src="/images/amanita.jpeg" alt="Amanita muscaria">
-                <figcaption>Bild på Röd flugsvamp - Amanita muscaria</figcaption>
-            </figure>
-        </aside>
+        </div>
     </main>
     <footer>&copy; 2023 Wijdan Cederlid</footer>
 </body>

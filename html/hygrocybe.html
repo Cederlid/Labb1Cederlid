@@ -4,23 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/html/css/style.css">
     <title>Hygrocybe - Vaxskivlingar</title>
 </head>
 
 <body>
     <header>
-        <h1>Vaxskivlingar - Hygrocybe</h1>
+        <h1 id="header">Vaxskivlingar - Hygrocybe</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="/html/index.html">Hem</a></li>
-            <li><a href="/html/agaricus.html">Agaricus - Champinjoner</a></li>
-            <li><a href="/html/hygrocybe.html">Hygrocybe - Vaxskivlingar</a></li>
-            <li><a href="/html/amanita.html">Amanita - Flugsvampar</a></li>
+    <nav class="menu">
+        <ul class="nav-container">
+            <li><a class="link" href="/html/index.html">Hem</a></li>
+            <li><a class="link" href="/html/agaricus.html">Agaricus - Champinjoner</a></li>
+            <li class="link-active"><a class="link" href="/html/hygrocybe.html">Hygrocybe-Vaxskivlingar<a>
+            <li>
+            <li><a class="link" href="/html/amanita.html">Amanita - Flugsvampar</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
+    <main class="main-container">
+        <section class="section-one">
             <h2>Allmänt om vaxskivlingar</h2>
             <p>Vaxskivling eller vaxingar, kallas flera arter av svampar som ingår i familjen Hygrophoraceae.
                 I Norden finns omkring 90 arter av vaxskivling. Karaktäristiskt för dessa arter är de tjocka, vaxartade
@@ -31,28 +33,27 @@
                 Bland arterna ingår några ätliga svampar, exempelvis frostvaxskivling, olivvaxskivling och
                 ängsvaxskivling. Giftiga vaxskivlingar inkluderar exempelvis toppvaxskivling.</p>
         </section>
-        <article>
-            <h2>Håll utkik efter vaxskivlingarna!</h2>
-            <p>Underfamiljen Hygrocyboideae utgörs främst av släktet (Hygrocybe), hagvaxingar, och flera andra släkten
-                som (Cuphophyllus), (Neohygrocybe) och (Gliophorus).</p>
-            <p>Vaxskivlingar är en grupp karaktäristiska hattsvampar där majoriteten av arterna är knutna till ogödslade
-                betesmarker som brukar ha sin främsta topp just nu, under septembers sista veckor och början av oktober
+        <section class="section-two">
+            <h2>Artfakta</h2>
+            <p>Hittills verkar det fortfarande vara lite skralt bland vaxskivlingarna runt om i Sverige, men på flera håll i landet börjar rapporter att komma in. Kanske är säsongen redan i full gång på sina håll och dippen vi ser i diagrammet beror helt enkelt på att man har fullt upp i fält och inte har hunnit lägga in sina rapporter ännu? En art som verkar ha ett mycket bra år är dadelvaxskivlingen, Hygrocybe spadicea, rödlistad som VU. Arten känns lätt igen på sin varmt bruna hattfärg och på de lysande citrongula skivorna. Foten är längsfibrig i gult med en del bruna inslag. Dadelvaxskivlingen växer ofta torrare än andra vaxskivlingsarter, gärna i soldränkta sluttningar (figur 2). Mer information om arten hittar du i Artfakta
             </p>
-            <p>Hittills verkar det fortfarande vara lite skralt bland vaxskivlingarna runt om i Sverige, men på flera
-                håll i landet börjar rapporter att komma in. Kanske är säsongen redan i full gång på sina håll och
-                dippen vi ser i diagrammet beror helt enkelt på att man har fullt upp i fält och inte har hunnit lägga
-                in sina rapporter ännu?
-                En art som verkar ha ett mycket bra år är dadelvaxskivlingen, Hygrocybe spadicea, rödlistad som VU.
-                Arten känns lätt igen på sin varmt bruna hattfärg och på de lysande citrongula skivorna. Foten är
-                längsfibrig i gult med en del bruna inslag. Dadelvaxskivlingen växer ofta torrare än andra
-                vaxskivlingsarter, gärna i soldränkta sluttningar. Mer information om arten hittar du i Artfakta.</p>
+        </section>
+        <article class="article-container">
+            <div>
+                <h2>Håll utkik efter vaxskivlingarna!</h2>
+                <p>Underfamiljen Hygrocyboideae utgörs främst av släktet (Hygrocybe), hagvaxingar, och flera andra släkten som (Cuphophyllus), (Neohygrocybe) och (Gliophorus).</p>
+                <p>Vaxskivlingar är en grupp karaktäristiska hattsvampar där majoriteten av arterna är knutna till ogödslade betesmarker som brukar ha sin främsta topp just nu, under septembers sista veckor och början av oktober
+                </p>
+                <p>Hittills verkar det fortfarande vara lite skralt bland vaxskivlingarna runt om i Sverige, men på flera håll i landet börjar rapporter att komma in. Kanske är säsongen redan i full gång på sina håll och dippen vi ser i diagrammet beror helt enkelt på att man har fullt upp i fält och inte har hunnit lägga in sina rapporter ännu? En art som verkar ha ett mycket bra år är dadelvaxskivlingen, Hygrocybe spadicea, rödlistad som VU. Arten känns lätt igen på sin varmt bruna hattfärg och på de lysande citrongula skivorna. Foten är längsfibrig i gult med en del bruna inslag. Dadelvaxskivlingen växer ofta torrare än andra vaxskivlingsarter, gärna i soldränkta sluttningar. Mer information om arten hittar du i Artfakta.
+                </p>
+                <aside>
+                    <figure>
+                        <img src="/images/hygrocybe.jpeg" alt="Hygrocybe intermedia">
+                        <figcaption>Bild på Trådvaxskivling - Hygrocybe intermedia</figcaption>
+                    </figure>
+                </aside>
         </article>
-        <aside>
-            <figure>
-                <img src="/images/hygrocybe.jpeg" alt="Hygrocybe intermedia">
-                <figcaption>Bild på Trådvaxskivling - Hygrocybe intermedia</figcaption>
-            </figure>
-        </aside>
+        </div>
     </main>
     <footer>&copy; 2023 Wijdan Cederlid</footer>
 </body>

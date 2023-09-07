@@ -10,18 +10,18 @@
 
 <body>
     <header>
-        <h1>Introduktion till svamp - fungi</h1>
+        <h1 id="header">Introduktion till svamp - fungi</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a class="here" href="/html/index.html">Hem</a></li>
-            <li><a href="/html/agaricus.html">Agaricus - Champinjoner</a></li>
-            <li><a href="/html/hygrocybe.html">Hygrocybe - Vaxskivlingar</a></li>
-            <li><a href="/html/amanita.html">Amanita - Flugsvampar</a></li>
+    <nav class="menu">
+        <ul class="nav-container">
+            <li class="link-active"><a class="link" href="/html/index.html">Hem</a></li>
+            <li><a class="link" href="/html/agaricus.html">Agaricus - Champinjoner</a></li>
+            <li><a class="link" href="/html/hygrocybe.html">Hygrocybe - Vaxskivlingar</a></li>
+            <li><a class="link" href="/html/amanita.html">Amanita - Flugsvampar</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
+    <main class="main-container">
+        <section class="section-one">
             <h2>Fakta om svampar!</h2>
             <p>Svampar (Fungi) bildar vid sidan om djur, växter och protister ett eget rike bland eukaryoter. Riket
                 omfattar ungefär 150 000 beskrivna arter; det faktiska antalet arter uppskattas till mellan 1,5
@@ -32,7 +32,7 @@
                 Läran om svampar kallas mykologi. Svensken Elias Fries sägs ofta vara den moderna mykologins fader.
             </p>
         </section>
-        <section>
+        <section class="section-two">
             <h2>Mer om svamp...</h2>
             <p>Alla svampar är för sin metabolism hänvisade till de organiska ämnen som bildats av andra organismer
                 (heterotrofi). De bildar den viktigaste gruppen av de organismer som deltar i nedbrytning av
@@ -98,31 +98,41 @@
                 svamparna publicerades under 2007.
             </p>
         </section>
-        <article>
-            <h2>Mat- och giftsvamp</h2>
-            <p>Många svamparter är kända och uppskattade födoämnen. Till dessa hör icke odlingsbara arter, som stensopp,
-                kantarell och tryffelsvamp, men även kulturarter och sorter av champinjon, shiitake och ostronmussling.
-                Vid plockning av vildsvamp krävs mycket stor noggrannhet, för att inte riskera förgiftning från
-                giftsvampar. Dessutom bör beaktas att tungmetaller tas upp och anrikas av svampar, vilket leder till att
-                fruktkropparna hos vilda svampar kan innehålla skadligt höga halter av sådana. Som viktigaste
-                förutsättning för svampplockning gäller grundläggande kännedom om mat- och giftsvampar. Många svamparter
-                innehåller hemolysiner eller värmelabila gifter, som förstörs vid upphettning. Endast vissa matsvampar,
-                som stensoppar, kan utan risk även förtäras råa.
-                De flesta matsvamparna tillhör hattsvamparna. Relativt få matsvampar, däribland murklor och tryffelsvamp
-                hör till sporsäcksvamparna (Ascomycota).
-                Det första skriftliga belägget för svamp som föda i Sverige är från den 10 juli 1636 då man vid hovet
-                noterade att man åt "riskor", men bland folket sågs svamp länge otjänlig som föda. Inte ens under
-                nödåren på 1860-talet, när många svenskar emigrerade till USA på grund av matbrist, sågs svamp som
-                acceptabel föda. Hushållningssällskapen och länsstyrelserna hade ambulerande utbildare som åkte runt för
-                att lära folk, men utan större framgång. Enligt vissa utsagor åt man hellre löv, stövlar och
-                hästexkrement än svamp. Även sågspån föredrogs framför svamp.</p>
+        <article class="article-container">
+            <div>
+                <h2>Mat- och giftsvamp</h2>
+                <p>Många svamparter är kända och uppskattade födoämnen. Till dessa hör icke odlingsbara arter, som
+                    stensopp,
+                    kantarell och tryffelsvamp, men även kulturarter och sorter av champinjon, shiitake och
+                    ostronmussling.
+                    Vid plockning av vildsvamp krävs mycket stor noggrannhet, för att inte riskera förgiftning från
+                    giftsvampar. Dessutom bör beaktas att tungmetaller tas upp och anrikas av svampar, vilket leder till
+                    att
+                    fruktkropparna hos vilda svampar kan innehålla skadligt höga halter av sådana. Som viktigaste
+                    förutsättning för svampplockning gäller grundläggande kännedom om mat- och giftsvampar. Många
+                    svamparter
+                    innehåller hemolysiner eller värmelabila gifter, som förstörs vid upphettning. Endast vissa
+                    matsvampar,
+                    som stensoppar, kan utan risk även förtäras råa.
+                    De flesta matsvamparna tillhör hattsvamparna. Relativt få matsvampar, däribland murklor och
+                    tryffelsvamp
+                    hör till sporsäcksvamparna (Ascomycota).
+                    Det första skriftliga belägget för svamp som föda i Sverige är från den 10 juli 1636 då man vid
+                    hovet
+                    noterade att man åt "riskor", men bland folket sågs svamp länge otjänlig som föda. Inte ens under
+                    nödåren på 1860-talet, när många svenskar emigrerade till USA på grund av matbrist, sågs svamp som
+                    acceptabel föda. Hushållningssällskapen och länsstyrelserna hade ambulerande utbildare som åkte runt
+                    för
+                    att lära folk, men utan större framgång. Enligt vissa utsagor åt man hellre löv, stövlar och
+                    hästexkrement än svamp. Även sågspån föredrogs framför svamp.</p>
+            </div>
+            <aside>
+                <figure>
+                    <img src="/images/psilocybe.jpeg" alt=" Psilocybe semilanceata">
+                    <br>Bild på toppslätskivling <br>"Psilocybe semilanceata"</figcaption>
+                </figure>
+            </aside>
         </article>
-        <aside>
-            <figure>
-                <img src="/images/ psilocybe.jpeg" alt=" Psilocybe semilanceata">
-                <figcaption>Bild på toppslätskivling -  Psilocybe semilanceata</figcaption>
-            </figure>
-        </aside>
     </main>
     <footer>&copy; 2023 Wijdan Cederlid</footer>
 </body>

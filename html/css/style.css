@@ -1,32 +1,125 @@
-.here {
-    color: rgb(217, 0, 255);
-}
-/* 
-a:active {
-    color: green;
-} */
-   
-/* body {
-    background-color: red;
-} */
+   body {
+       background-color: rgb(253, 221, 226);
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
 
+   .menu {
+       border: solid 2px;
+       background-color: hsl(222, 75%, 78%);
+   }
 
-nav a {
-    display: inline-block;
-    transition: all 3.5s ease;
-}
+   .link:link {
+       color: rgb(48, 169, 175);
+   }
 
-nav a:hover {
-    background: red;
-    transform: scale(3.5) rotate(1535deg);
-    color: aquamarine;
-}
+   .link:visited {
+       color: blue;
+   }
 
-img {
-    transition: all 3.5s ease;
-}
+   .link-active {
+       background: #8391ab;
+   }
 
-img:hover {
-    background: red;
-    transform: scale(0.5) rotate(1535deg);
-}
+   nav a:hover {
+       background: red;
+   }
+
+   img {
+       max-width: 100%;
+       width: 100%;
+       transition: all 3.5s ease;
+   }
+
+   img:hover {
+       transform: scale(0.5) rotate(1535deg);
+   }
+
+   .nav-container {
+       display: flex;
+       justify-content: space-evenly;
+       margin: 0;
+   }
+
+   .article-container {
+       display: flex;
+   }
+
+   .article-container div {
+       width: 100%;
+   }
+
+   .article-container aside {
+       width: auto;
+   }
+
+   .menu li {
+       list-style-type: none;
+       padding: 1%;
+   }
+
+   .main-container {
+       display: grid;
+       grid-template-areas:
+           "section-one section-two"
+           "article-container section-two";
+       grid-template-columns: repeat(2, 1fr);
+       column-gap: 3%;
+   }
+
+   .section-one {
+       grid-area: section-one;
+   }
+
+   .section-two {
+       grid-area: section-two;
+   }
+
+   .article-container {
+       grid-area: article-container;
+   }
+
+   #header {
+       font-family: 'Times New Roman', Times, serif;
+   }
+
+   @media screen and (max-width: 576px) {
+       .nav-container {
+           flex-direction: column;
+           padding-left: 0;
+       }
+
+       .article-container aside {
+           display: none;
+       }
+
+       .main-container {
+           display: block;
+       }
+
+       .link {
+        width: 100%;
+       }
+   }
+
+   @media screen and (max-width: 768px) {
+       .nav-container {
+           flex-direction: column;
+           padding-left: 0;
+       }
+
+       .main-container {
+           display: block;
+       }
+   }
+
+   @media screen and (max-width: 992px) {
+       body {
+           background-color: green;
+       }
+   }
+
+   @media screen and (max-width: 1200px) {
+       body {
+           background-color: lightblue;
+       }
+   }
