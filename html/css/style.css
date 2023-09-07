@@ -16,6 +16,10 @@
        color: blue;
    }
 
+   p:active  {
+    background-color: rgb(216, 158, 86);
+   }
+
    .link-active {
        background: #8391ab;
    }
@@ -112,14 +116,3 @@
        }
    }
 
-   @media screen and (max-width: 992px) {
-       body {
-           background-color: green;
-       }
-   }
-
-   @media screen and (max-width: 1200px) {
-       body {
-           background-color: lightblue;
-       }
-   }

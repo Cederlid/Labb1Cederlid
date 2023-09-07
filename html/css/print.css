@@ -1,0 +1,11 @@
+.main-container {
+    display: block;
+}
+
+.nav-container {
+    display: none;
+}
+
+.section-one + .section-two + article {
+    break-inside: avoid;
+}
