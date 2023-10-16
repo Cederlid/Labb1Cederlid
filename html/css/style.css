@@ -44,6 +44,10 @@
        margin: 0;
    }
 
+   .nav-container .icon {
+    display: none;
+   }
+
    .article-container {
        display: flex;
    }
@@ -90,6 +94,20 @@
        .nav-container {
            flex-direction: column;
            padding-left: 0;
+       }
+
+       .nav-container a {
+        display: none;
+       }
+
+       .nav-container .icon {
+        float: right;
+        display: block;
+        position: absolute;
+       }
+
+       .link-active {
+        display: none;
        }
 
        .article-container aside {
